@@ -1,0 +1,17 @@
+{
+  "video_path": "kpopdemons.mkv",
+  "intervals": [
+    ["00:01:00", "00:01:20"],
+    ["00:00:00", "00:00:10"],
+    ["00:02:15", "00:02:20"]
+  ],
+  "concat": true,
+  "output_directory": "trimmed_output",
+  "final_output_name": "final_combined_video.mp4",
+  "force_reencode_concat": true,
+  "video_codec_concat": "libx264",
+  "audio_codec_concat": "aac",
+  "crf": 26,
+  "preset": "fast",
+  "scale_resolution": "-1:1080"
+}
