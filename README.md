@@ -65,7 +65,7 @@ The `config.json` file is where you tell the script what video to process and ho
   "preset": "medium",
   "scale_resolution": null
 }
-
+```
 Okay, that's a great idea for beginner users! I'll update the README.md to provide more comprehensive options for scale_resolution and video_codec_concat, making it clearer which choices are available and what their implications are.
 ## 🛠️ Configuration (`config.json` Guide)
 
@@ -89,6 +89,7 @@ The `config.json` file is where you tell the script what video to process and ho
   "preset": "medium",
   "scale_resolution": null
 }
+```
 
 Parameter Explanations:
  * "video_path" (Required)
